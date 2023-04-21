@@ -1,0 +1,29 @@
+
+
+
+
+
+.custom-navbar {
+    display: flex;
+    align-items: center;
+    min-height: 2rem/* 64px */;
+    width: 100%;
+}
+:where(.navbar > *) {
+    display: inline-flex;
+    align-items: center;
+}
+
+.flex-end{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.center{
+    justify-content: center;
+    align-items: center;
+}
+
+.space-btw{
+    justify-content: space-between;
+}

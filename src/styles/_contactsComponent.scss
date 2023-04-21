@@ -1,0 +1,47 @@
+
+
+.contacts_section{
+    width: 100%;
+    min-height: 100vh;
+    height: fit-content;
+
+}
+
+.add_container{
+    width: 100%;
+    min-height: 20vh;
+    height: fit-content;
+    padding-top: 70px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    .add_btn{
+        margin: 1.5rem;
+        width: 5rem;
+        background-color: $Fern-green;
+        color: $Snow;
+
+    }
+    .add_btn:hover{
+        background-color: $Hunter-green;
+    }
+}
+
+
+
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+}
+
+
+.contacts_container{
+    width: 55%;
+    min-height: 70vh;
+    height: fit-content;
+}

@@ -1,0 +1,27 @@
+
+.contact_form__container{
+    width: 54rem;
+
+
+
+    .delete_btn{
+        border: none;
+        background-color: $Rojo-Veneciano;
+        outline: none;
+    }
+
+    .delete_btn:hover{
+        background-color: $Granero-rojo;
+        border: none;
+        outline: none;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .contact_form__container{
+        width: fit-content;
+
+    }
+}
+
